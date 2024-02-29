@@ -8,17 +8,16 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $mobil = [
-            'Toyota',
-            'Honda',
-            'Nissan',
-            'Mitsubishi',
-            'Suzuki'
-        ];
+        // $data = [
+        //     'nama' => 'Muhammad Adib Fakhri Siregar',
+        //     'pekerjaan' => 'Developer',
+        // ];
+        // return view('home')->with($data);
 
-        return view('home', compact('mobil'));
+        $nama = "Muhammad Adib Fakhri Siregar";
+        $pekerjaan = "Mahasiswa";
+        return view('home', compact('nama','pekerjaan'));
     }
-
     public function contact()
     {
         return view('contact');

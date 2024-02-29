@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ListMobil;
 
 Route::get('/', function () {
     return view('welcome');
@@ -35,3 +36,5 @@ route::prefix('admin')->group(function (){
 Route::get('/listbarang/{id}/{nama}', [ListBarangController::class, 'tampilkan']);
 
 Route::get('/login', [LoginController::class, 'loginForm']);
+
+Route::get('/mobil', [ListMobil::class, 'index']);
