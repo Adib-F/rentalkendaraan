@@ -9,7 +9,6 @@ class List_MotorController extends Controller
     public function index()
     {
         $motor = [
-            'Toyota',
             'Honda',
             'Yamaha',
             'Suzuki'

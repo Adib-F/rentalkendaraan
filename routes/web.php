@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\List_MotorController;
+use App\Http\Controllers\Listmotor;
+use App\Http\Controllers\List_bahanController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -38,3 +40,5 @@ Route::get('/listbarang/{id}/{nama}', [ListBarangController::class, 'tampilkan']
 Route::get('/login', [LoginController::class, 'loginForm']);
 
 Route::get('/motor', [List_MotorController::class, 'index']);
+Route::get('/Listmotor', [Listmotor::class, 'tampilkan']);
+Route::get('/List_bahan', [List_bahanController::class, 'tampilkan']);
