@@ -1,0 +1,48 @@
+
+/* Tambahkan CSS dari Figma di sini */
+/* RENTCANG */
+
+#rentcang {
+    position: absolute;
+    width: 165px;
+    height: 50px;
+    left: 87px;
+    top: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+/* surface1 */
+
+#surface1 {
+    position: absolute;
+    left: 2.64%;
+    right: 83.02%;
+    top: 3.71%;
+    bottom: 90.77%;
+}
+/* Group 233 */
+
+#group233 {
+    position: absolute;
+    width: 457px;
+    height: 681px;
+    left: 120px;
+    top: 196px;
+}
+/* rubicon 1 */
+
+#rubicon1 {
+    position: absolute;
+    width: 1383px;
+    height: 1024px;
+    left: 720px;
+    top: 0px;
+    background: url('/images/rubicon 1.png'); /* Path menuju gambar */
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
